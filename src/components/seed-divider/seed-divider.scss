@@ -1,0 +1,48 @@
+.seed-divider{
+  padding: 20px 0 40px 0;
+  .seed{
+      position: relative;
+      max-width: 30px;
+      margin: 0 auto;
+      &:before, 
+      &:after{
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 2px;
+        background-color:#fff;
+        
+        border-radius:5px;
+        top: 50%;
+        }
+        &::before{
+          left: -83px;
+        }
+        &::after{
+          left: 53px;
+        }
+  }
+}
+.seed-divider.black{
+  .seed{
+    path{
+      fill: black;
+    }
+    &:before, 
+    &:after{
+      background-color:black;
+      }
+  }
+}
+.seed-divider.white{
+  .seed{
+    path{
+      fill: white;
+    }
+    &:before, 
+    &:after{
+      background-color:white;
+      
+      }
+  }
+}

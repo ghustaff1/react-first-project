@@ -1,0 +1,10 @@
+.about-content{
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.4;
+  max-width: 60%;
+  margin: 0 auto;
+  & p:first-child{
+    margin-bottom: 22px;
+  }
+}

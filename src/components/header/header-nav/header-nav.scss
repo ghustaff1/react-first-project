@@ -1,0 +1,7 @@
+.app-header-nav{
+  display: flex;
+  gap: 40px;
+  &:first-child{
+    position: relative;
+  }
+}
