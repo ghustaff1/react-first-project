@@ -6,10 +6,11 @@ class HeaderNavItem extends Component{
   }
 
   render(){
+    const clazz=this.props.color==='white'?'header-nav-link white':'header-nav-link black';
     return(
-      <li className="header-nav-item">
+      <li style={{position:this.props.position}} className="header-nav-item">
         {this.props.seed}
-        <a href="#">{this.props.link}</a>
+        <a className={clazz} href="#">{this.props.link}</a>
       </li>
     )
   }

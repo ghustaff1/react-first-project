@@ -6,7 +6,8 @@ const Header=(props)=>{
     <header className="header">
       <div className="container">
         <HeaderNav
-        navLinks={props.navLinks}/>
+        navLinks={props.navLinks}
+        color='white'/>
       </div>
     </header>
   )

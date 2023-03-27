@@ -1,0 +1,11 @@
+.products-best{
+  background: url(./background/products-best-bg.jpg)0 0/ 100% auto no-repeat;
+  padding: 80px 0 110px 0;
+  &-row{
+    display: flex;
+    gap: 70px;
+  }
+  .topic-title{
+    margin-bottom: 40px;
+  }
+}

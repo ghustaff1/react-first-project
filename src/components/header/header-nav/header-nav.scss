@@ -4,4 +4,14 @@
   &:first-child{
     position: relative;
   }
+  .seed-white{
+    path{
+      fill: white;
+    }
+  }
+  .seed-black{
+    path{
+      fill: black;
+    }
+  }
 }
